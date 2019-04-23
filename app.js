@@ -1,3 +1,7 @@
-console.log("Enviando a la consola");
-console.log(2+2);
-console.log('ID: '+ 20);
+// Formas de crear variables: 
+// var let const
+
+let usando = "Usando",
+    tecnologia = "JavaScript";
+
+console.log(`${usando} ${tecnologia}`);
