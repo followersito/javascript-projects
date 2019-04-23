@@ -21,8 +21,8 @@ meses.shift();
 meses.splice(2,1);
 
 // Unir arreglos
-let arreglo1=[1,2,3];
-let arreglo2=['a','b','c'];
+let arreglo1 = [1,2,3];
+let arreglo2 = ['a','b','c'];
 console.log(arreglo1.concat(arreglo2));
 
 arreglo1 = [92,1,42,100,76,2,36];
