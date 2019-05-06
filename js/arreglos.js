@@ -5,7 +5,7 @@ const numeros = [10,20,30,40,50];
 const meses = new Array('Enero','Febrero','Marzo','Abril');
 meses[4] = "Mayo";
 meses.push('Junio');
-
+console.log(meses);
 // Encontrar un elemento en el arreglo
 // console.log(meses.indexOf('Abril'));
 
