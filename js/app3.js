@@ -1,7 +1,7 @@
 const producto1 = 'PC',
-      precio1 = 3000,
-      producto2 = 'Keyboard',
-      precio2 = 400;
+    precio1 = 3000,
+    producto2 = 'Keyboard',
+    precio2 = 400;
 
 let html;
 
@@ -24,7 +24,7 @@ html = `
         </ul>
 `;
 
-function total(precio1, precio2){
+function total(precio1, precio2) {
     return precio1 + precio2;
 }
 
