@@ -1,21 +1,11 @@
-let elemento;
+// getElementById
 
-elemento = document.head;
-elemento = document.body;
-elemento = document.characterSet;
-elemento = document.forms[0].classList;
-elemento = document.forms[0].classList[2];
-elemento = document.images[4].getAttribute('src');
-elemento = document.scripts[0];
+let encabezado;
+encabezado = document.getElementById('encabezado');
+encabezado.style.background = '#333';
+encabezado.style.color = '#fff';
 
-let imagenes = document.images;
+// Cambiar el texto
+encabezado.innerText = 'Los mejores cursos';
 
-let imagenesArr = Array.from(imagenes);
-imagenesArr.forEach(function (imagenes) {
-    console.log(imagenes);
-});
-
-console.log(imagenesArr);
-
-// // Eliminar de Local Storage
-// localStorage.clear();
+console.log(encabezado);
