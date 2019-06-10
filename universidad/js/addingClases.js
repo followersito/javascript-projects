@@ -17,6 +17,9 @@ elemento = primerLi.classList;
 // Leer atributos de un elemento:
 elemento = primerLi.getAttribute('href');
 primerLi.setAttribute('href', 'http://facebook.com');
+primerLi.setAttribute('data-id',20);
+// Remover atributos
+//primerLi.removeAttribute('data-id');
+elemento = primerLi.hasAttribute('data-id');
 
-elemento = primerLi;
 console.log(elemento);
